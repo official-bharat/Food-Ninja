@@ -1,74 +1,71 @@
-import React, { useState } from "react";
-import { Block, Text, ImageComponent, Input, CustomButton, Button } from './src/components'
-import { ImageBackground } from "react-native";
+import React from 'react';
+import { View, Image, ImageBackground } from 'react-native';
+import { Text, Button, TextInput } from 'react-native-paper';
 import {
   heightPercentageToDP as hp,
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
 
 const Login = () => {
-
   return (
-    <ImageBackground style={{ flex: 1, backgroundColor: 'white' }} source={require('./src/assets/icons/Pattern.png')}>
-      <Block >
-        <Block flex={false} center padding={[hp(4)]}>
-          <ImageComponent
-            name="logo1"
-            height="190"
-            width="190"
-          />
-          <Text center size={17}>Deliever Favorite Food</Text>
-        </Block>
-        <Text bold center size={20} margin={[wp(2)]}>Login To Your Account</Text>
-        <Block flex={false} padding={[hp(1), wp(6)]} >
-          <Input
-            placeholder="Email"
-            style={{ height: 50 }}
-          />
-          <Input
-            placeholder="Password"
-            style={{ height: 50 }}
-          />
-        </Block>
-        <Text center>Or Continue With</Text>
-        <Block flex={false} row center>
-          <CustomButton
-            borderWidth={1}
-          >
-            <Block flex={false} row>
-              <ImageComponent
-                name="Facebook"
-                height="40"
-                width="40"
-              />
-              <Text>Facebook</Text>
-            </Block>
-          </CustomButton>
-          <CustomButton
-            borderWidth={1}
-          >
-            <Block flex={false} row>
-              <ImageComponent
-                name="google"
-                height="40"
-                width="40"
-              />
-              <Text>Google</Text>
-            </Block>
-          </CustomButton>
-        </Block>
-        <CustomButton>
-          <Text size={15} color="secondary" center>Forgot Your Password?</Text>
-        </CustomButton>
-        <Block flex={false} padding={[hp(2) , wp(30)]}>
-          <Button color="secondary" >
-            Login
-          </Button>
-        </Block>
-      </Block>
+    <ImageBackground style={{ flex: 1, backgroundColor: 'white' }} source={require('../../assets/icons/Pattern.png')}>
+      <View style={{ alignItems: 'center', paddingTop: hp(3) }}>
+        <Image style={{ height: 180, width: 180 }} source={require('../../assets/icons/Logo.png')} />
+        <Text style={{ fontWeight: 'bold' }}>Deliever Favorite Food</Text>
+      </View>
+      <Text style={{ textAlign: 'center', fontSize: 22, fontWeight: 'bold', paddingTop: hp(5) }}>Login To Your Account</Text>
+      <View style={{ paddingHorizontal: wp(7) }}>
+        <TextInput
+          label="Email"
+          mode='outlined'
+          style={{ marginTop: hp(4), marginBottom: hp(1.5), height: hp(8) }}
+        />
+        <TextInput
+          label="Password"
+          mode='outlined'
+        />
+      </View>
+      <Text style={{ textAlign: 'center', paddingTop: hp(1.5), fontWeight: 'bold' }} >Or Continue With</Text>
+      <View style={{ flexDirection: 'row', justifyContent: 'center', marginTop: hp(3) }}>
+        <Button
+          mode="outlined"
+          color="black"
+          style={{height: hp(7.5), width: wp(38)}}
+          
+        >
+            <Image style={{height:25,width:25}} source={require('../../assets/icons/facebook.png')}/>
+          Facebook
+        </Button>
+        <Button
+          mode="outlined"
+          color="black"
+          contentStyle={{ height: hp(7.5), width: wp(38) }}
+        >
+           <Image style={{height:25,width:25}} source={require('../../assets/icons/google.png')}/>
+          Google
+        </Button>
+      </View>
+      <Button
+        style={{ paddingTop: hp(1.5) }}
+        color="#53E88B"
+      >
+        Forgot Your Password?
+      </Button>
+      <View style={{alignItems:'center'}}>
+        <Button
+          mode="contained"
+          style={{ height: hp(7.5),
+             backgroundColor:"#53E88B",
+             width: wp(40),paddingTop:hp(1),
+             marginTop:hp(2),
+             borderRadius:15}}
+        >
+          Login
+        </Button>
+      </View>
     </ImageBackground>
   )
-
 }
+
 
 export default Login;
