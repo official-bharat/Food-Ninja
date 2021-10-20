@@ -69,6 +69,32 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>BentonSans Medium.otf</string>
+		<string>BentonSans Black.otf</string>
+		<string>BentonSans Bold.otf</string>
+		<string>BentonSans Book.otf</string>
+		<string>BentonSans Comp Black.otf</string>
+		<string>BentonSans Comp Bold.otf</string>
+		<string>BentonSans Comp Book.otf</string>
+		<string>BentonSans Comp Light.otf</string>
+		<string>BentonSans Comp Medium.otf</string>
+		<string>BentonSans Comp Regular.otf</string>
+		<string>BentonSans Cond Black.otf</string>
+		<string>BentonSans Cond Bold.otf</string>
+		<string>BentonSans Cond Book.otf</string>
+		<string>BentonSans Cond Light.otf</string>
+		<string>BentonSans Cond Medium.otf</string>
+		<string>BentonSans Cond Regular.otf</string>
+		<string>BentonSans ExtraComp Black.otf</string>
+		<string>BentonSans ExtraComp Bold.otf</string>
+		<string>BentonSans ExtraComp Book.otf</string>
+		<string>BentonSans ExtraComp Light.otf</string>
+		<string>BentonSans ExtraComp Medium.otf</string>
+		<string>BentonSans ExtraComp Regular.otf</string>
+		<string>BentonSans ExtraLight.otf</string>
+		<string>BentonSans Light.otf</string>
+		<string>BentonSans Regular.otf</string>
+		<string>BentonSans Thin.otf</string>
 	</array>
 </dict>
 </plist>
