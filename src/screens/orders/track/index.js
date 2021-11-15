@@ -47,7 +47,7 @@ const Trackodr = () => {
                     <Image style={{ height: 20, width: 10 }} source={require('../../../assets/icons/VectorIcon.png')} />
                 </TouchableOpacity>
                 <View style={{ alignItems: 'center' }}>
-                    <ImageBackground source={require('../../../assets/icons/Track.png')} style={{ paddingTop: hp(2), height: hp(30), width: wp(90), bottom: 20, borderRadius: 20, elevation: 7, backgroundColor: 'white',  paddingLeft: wp(4)}}>
+                    <ImageBackground source={require('../../../assets/icons/Track.png')} style={{ paddingTop: hp(2), height: hp(30), width: wp(90), bottom: hp(3), borderRadius: 20, elevation: 7, backgroundColor: 'white',  paddingLeft: wp(4)}}>
                             <Text style={{ fontFamily: 'BentonSans Bold', fontSize: 17 }}>Track Orders</Text>
                             <View style={{ height: hp(10), flexDirection: 'row', alignItems: 'center', borderRadius: 15, paddingLeft: wp(3), marginTop: hp(3), width: wp(83), backgroundColor: 'white' }}>
                                 <Image style={{ height: 63, width: 63 }} source={require('../../../assets/icons/Profile1.png')} />

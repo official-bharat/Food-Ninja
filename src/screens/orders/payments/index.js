@@ -29,13 +29,13 @@ const Orderpayment = () => {
                         <Text style={{ fontFamily: 'BentonSans Regular', fontSize: 14 }}>2232 4455 5556 ****</Text>
                     </View>
                 </TouchableOpacity>
-                <TouchableOpacity style={{ elevation: 10, marginTop: hp(2), backgroundColor: 'white', paddingHorizontal: wp(4), width: wp(90), borderRadius: 20, height: hp(9),justifyContent:'center' }}>
+                <TouchableOpacity style={{ elevation: 10, marginTop: hp(3), backgroundColor: 'white', paddingHorizontal: wp(4), width: wp(90), borderRadius: 20, height: hp(9),justifyContent:'center' }}>
                     <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                         <Image style={{ height: hp(2), width: wp(15) }} source={require('../../../assets//icons/Visa.png')} />
                         <Text style={{ fontFamily: 'BentonSans Regular', fontSize: 14 }}>2232 4455 5556 ****</Text>
                     </View>
                 </TouchableOpacity>
-                <TouchableOpacity style={{ elevation: 10, backgroundColor: 'white', marginTop: hp(2), paddingHorizontal: wp(4), width: wp(90), borderRadius: 20, height: hp(9),justifyContent:'center' }}>
+                <TouchableOpacity style={{ elevation: 10, backgroundColor: 'white', marginTop: hp(3), paddingHorizontal: wp(4), width: wp(90), borderRadius: 20, height: hp(9),justifyContent:'center' }}>
                     <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                         <Image style={{ height: hp(3.8), width: wp(22) }} source={require('../../../assets//icons/Payoneer.png')} />
                         <Text style={{ fontFamily: 'BentonSans Regular', fontSize: 14 }}>2232 4455 5556 ****</Text>

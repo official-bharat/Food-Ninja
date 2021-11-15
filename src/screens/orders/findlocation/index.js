@@ -15,7 +15,7 @@ import LinearGradient from "react-native-linear-gradient";
 const styles = StyleSheet.create({
     container: {
         ...StyleSheet.absoluteFillObject,
-        height: hp(105),
+        height: hp(100),
         width: wp(100),
         justifyContent: 'space-between',
 
@@ -50,7 +50,7 @@ const FindLocation = () => {
                     style={{ height: hp(7.6), marginTop: hp(3), marginHorizontal: wp(5), fontSize: 12 }}
                 />
                 <View style={{ alignItems: 'center' }}>
-                    <View style={{ paddingTop: hp(4), height: hp(26), width: wp(93), bottom: 20, borderRadius: 20, elevation: 7, backgroundColor: 'white', paddingHorizontal: wp(3) }}>
+                    <View style={{ paddingTop: hp(4), height: hp(26), width: wp(93), bottom: hp(3), borderRadius: 20, elevation: 7, backgroundColor: 'white', paddingHorizontal: wp(3) }}>
                         <Text style={{ fontFamily: 'BentonSans Regular', fontSize: 14 }}>Your Location</Text>
                         <View style={{ paddingTop: hp(2), flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
                             <Image style={{ height: 40, width: 40 }} source={require('../../../assets/icons/Location.png')} />

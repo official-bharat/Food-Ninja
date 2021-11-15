@@ -13,20 +13,20 @@ import { SwipeListView } from 'react-native-swipe-list-view';
 const Tabb = ({ color, tab, icon, onPress }) => {
     const {navigate} = useNavigation();
     return (
-        <View style={{ paddingTop: hp(2) }}>
-            <View style={{ flexDirection: 'row', paddingLeft: wp(4), justifyContent: 'space-between' }}>
+        <View style={{ paddingTop: hp(2), }}>
+            <View style={{ flexDirection: 'row',  justifyContent:'space-between' }}>
                 <Text style={{ fontFamily: 'BentonSans Medium', width: wp(68), color: 'white', fontSize: 14 }}>Sub-Total</Text>
                 <Text style={{ fontFamily: 'BentonSans Medium', color: 'white', fontSize: 14 }}>120 $</Text>
             </View>
-            <View style={{ flexDirection: 'row', paddingLeft: wp(4), paddingTop: hp(0.5) }}>
+            <View style={{ flexDirection: 'row', paddingTop: hp(0.5),justifyContent:'space-between'  }}>
                 <Text style={{ fontFamily: 'BentonSans Medium', width: wp(68), color: 'white', fontSize: 14 }}>Delivery Charge</Text>
                 <Text style={{ fontFamily: 'BentonSans Medium', color: 'white', fontSize: 14 }}>10 $</Text>
             </View>
-            <View style={{ flexDirection: 'row', paddingLeft: wp(4), paddingTop: hp(0.5) }}>
+            <View style={{ flexDirection: 'row', paddingTop: hp(0.5),justifyContent:'space-between'  }}>
                 <Text style={{ fontFamily: 'BentonSans Medium', width: wp(68), color: 'white', fontSize: 14 }}>Discount</Text>
                 <Text style={{ fontFamily: 'BentonSans Medium', color: 'white', fontSize: 14 }}>20 $</Text>
             </View>
-            <View style={{ flexDirection: 'row', paddingLeft: wp(4), paddingTop: hp(2) }}>
+            <View style={{ flexDirection: 'row',  paddingTop: hp(2),justifyContent:'space-between'  }}>
                 <Text style={{ fontFamily: 'BentonSans Bold', width: wp(65), color: 'white', fontSize: 18 }}>Total</Text>
                 <Text style={{ fontFamily: 'BentonSans Bold', color: 'white', fontSize: 18 }}>150 $</Text>
             </View>
